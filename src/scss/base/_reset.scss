@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  html { /* scroll-behavior: smooth; */
+    overflow-y: auto;
+  }
+  
+  body {
+    font: normal 14px/1 'Montserrat', sans-serif;
+    color: $fontColor;
+    font-size: 12px;
+    line-height: 1.5;
+    background: #fff;
+    @include easing3;
+  }
+
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    color: $fontColor;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: $fontColor;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: $fontColor;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: $fontColor;
+  }
+  
+  a:focus {
+    text-decoration: none;
+    color: $fontColor;
+  }
+  
+  h1, h2, h3, h4, h5, h6, b, strong {
+    font-weight: normal;
+  }
+  
+  i, em, address {
+    font-style: normal;
+  }
+  i, button {
+    cursor: pointer;
+  }
+  
+  .blind {
+    display: inline-block;
+    text-indent: -10000px;
+    overflow: hidden;
+  }
+  
+  .hide {
+    display: none;
+  }
