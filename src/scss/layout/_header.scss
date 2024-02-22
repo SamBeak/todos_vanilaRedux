@@ -1,0 +1,22 @@
+#header{
+    background-color: #8739F9;
+    .container{
+        .gap{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .title{
+                display: flex;
+                align-items: center;
+                >p {
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: rgba(#fff, 0.96);
+                }
+                >svg{
+                    margin-left: 0.2rem;
+                }
+            }
+        }
+    }
+}
