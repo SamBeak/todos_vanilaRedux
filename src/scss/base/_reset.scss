@@ -67,6 +67,11 @@
   i, button {
     cursor: pointer;
   }
+
+  input:focus{
+    outline: 0;
+    outline-offset: 0;
+  }
   
   .blind {
     display: inline-block;
